@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+.nav-list [class^="glyph-"],
+.nav-list [class*=" glyph-"] {
+	margin-right: 2px;
+}
+
+.btn-large [class^="glyph-"],
+.btn-large [class*=" glyph-"] {
+	margin-top: 4px;
+}
+
+.btn-small [class^="glyph-"],
+.btn-small [class*=" glyph-"] {
+	margin-top: 0;
+}
+
+.btn-mini [class^="glyph-"],
+.btn-mini [class*=" glyph-"] {
+	margin-top: -1px;
+}
+
+[class^="glyph-"],
+[class*=" glyph-"] {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	*margin-right: .3em;
+	line-height: 24px;
+	vertical-align: text-top;
+	background-repeat: no-repeat;
+	background-size : 100%;
+	margin-top: 1px;
+}
+
+.glyph-small {
+	width: 14px !important;
+	height: 14px !important;
+}
+
+.glyph-large {
+	width: 32px !important;
+	height: 32px !important;
+}
+
+<% files.forEach(function(f) { -%>
+.glyph-<%= f.name %> {
+	background-image: url("<%= f.path %>");
+}
+<% }) -%>
