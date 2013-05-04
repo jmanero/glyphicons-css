@@ -8,13 +8,11 @@ view Jan Kovařík's other offerings.
 ```node render.js /local/path/to/icon/files /http/path/to/icons```
 
 ## License
-* **GLYPHICONS FREE** is subject to the terms and conditions set fourth the
-	[Creative Commons Attribution 3.0 Unported Legal Code]
-	(http://creativecommons.org/licenses/by/3.0/legalcode)
+* **GLYPHICONS FREE** is subject to the terms and conditions set forth the
+    [Creative Commons Attribution 3.0 Unported Legal Code](http://creativecommons.org/licenses/by/3.0/legalcode)
 
 * **Glyphicons CSS Generator** is made avaliable under the terms and conditions
-	set fourth in the MIT License as follows:
-
+	set forth in the MIT License as follows:
 
     Copyright (c) 2013 John Manero, Dynamic Network Services Inc.
     
