@@ -1,6 +1,6 @@
 {
 	"name" : "glyphicons-css",
-	"version" : "0.0.0",
+	"version" : "1.0.0",
 	"description" : "CSS generator for the GLYPHICONS FREE icon set",
 	"keywords" : [  ],
 	"dependencies" : {

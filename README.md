@@ -15,6 +15,7 @@ view Jan Kovařík's other offerings.
 * **Glyphicons CSS Generator** is made avaliable under the terms and conditions
 	set fourth in the MIT License as follows:
 
+
     Copyright (c) 2013 John Manero, Dynamic Network Services Inc.
     
     Permission is hereby granted, free of charge, to any person obtaining a
