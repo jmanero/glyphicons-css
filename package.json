@@ -1,22 +1,22 @@
 {
-	"name" : "glyphicons-css",
-	"version" : "1.0.0",
-	"description" : "CSS generator for the GLYPHICONS FREE icon set",
-	"keywords" : [  ],
-	"dependencies" : {
-		"ejs" : "0.8.3"
-	},
-	"bin" : "./render.js",
-	"author" : {
-		"name" : "John Manero",
-		"email" : "jmanero@dyn.com"
-	},
-	"license":  "MIT",
-	"repository" : {
-		"type" : "git",
-		"url" : "git://github.com/jmanero/glyphicons-css.git"
-	},
-	"engines": {
-		"node": "0.8.x"
-	}
+  "name": "glyphicons-css",
+  "version": "1.1.0",
+  "description": "CSS generator for the GLYPHICONS FREE icon set",
+  "keywords": [],
+  "dependencies": {
+    "ejs": "0.8.3"
+  },
+  "bin": "./render.js",
+  "author": {
+    "name": "John Manero",
+    "email": "jmanero@dyn.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jmanero/glyphicons-css.git"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
 }
