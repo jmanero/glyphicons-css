@@ -18,7 +18,7 @@ var render = EJS.compile(template);
 var files = FS.readdirSync(Path.resolve(__dirname, target)).filter(function(file) {
 	return Path.extname(file) === '.png';
 }).map(function(file) {
-	var parts = file.match(/^glyphicons_\d{3}_(.*).png$/i);
+	var parts = file.match(/^glyphicons-\d{1,3}-(.*).png$/i);
 	var o = {
 		name : parts[1],
 		path : Path.join(root, file)
